@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+    padding: 0px;
+
+}
+body{
+    background-color: #fafdff;
+}
+
+th, td{
+    padding: 10px;
+}
+th{
+    background: #215988;
+    color: white;
+}
+td{
+    background: #b7d4e6;
+    color: #215988;
+}
+
+table{
+    margin-top: 20px;
+}
+
+.add{
+    margin-top: 20px;
+    margin-left: 1245px;
+}
+
+a{
+    text-decoration: none;
+    color: #215988;
+
+}
+.update{
+    color:darkgreen ;
+}
+
+.delete{
+    color: #b21c1c;
+}
+a:hover{
+    color: #3363bb;
+    cursor: pointer;
+}
+
+.body{
+    padding: 0;
+    margin-left: 600px;
+}
+form{
+    margin-top: 20px;
+}
+form>input, textarea{
+    width: 300px;
+    height: 25px;
+}
+button{
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: #215988;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+button:hover{
+    background-color: #b7d4e6;
+    cursor: pointer;
+}
